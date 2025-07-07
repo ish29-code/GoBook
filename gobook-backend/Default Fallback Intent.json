@@ -1,0 +1,167 @@
+{
+  "id": "0b38896d-a45a-401e-8c35-5da604d3fef1",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hii",
+            "Hello!, How can I help you"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I have a meeting in SF tomorrow please book me a hotel there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31138029-6896-41b0-9c5f-8ba21374c625",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "could you please book me a room in the best hotel of NY",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "669bf513-c973-41b5-82ac-b19fb682752c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please book me the hotel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa1da63d-eb3c-4f53-93e8-df6c64458b35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to book a car",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93ef1e5e-ac7c-42a6-a3b9-7df12dccc708",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need to book a car for weekend",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b698900-3e50-4e3f-b52f-fd28d6643707",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to book an apartment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "784051bc-2f05-4e29-b054-a33015ccc9e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book an apartment in Berlin for 3 adults and 1 child",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aaa234b8-de45-413f-a782-a377a679081c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a room for 2 adults",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69b6209b-46ed-4e87-a730-1ba4658baf03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book the hotel in Paris for tomorrow",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a056596-1ec1-4fd5-abde-d210ef354f0e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book me a hotel for tonight",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cf6a5c2c-ac1f-4c85-b4f0-be0946ba9dcb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
