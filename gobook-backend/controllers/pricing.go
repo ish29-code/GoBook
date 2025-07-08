@@ -11,11 +11,11 @@ import (
 )
 
 func PriceFlight(c *gin.Context) {
-	forwardRequest(c, "http://127.0.0.1:8003/predict/flight")
+	forwardRequest(c, "https://go-price-fy4m.onrender.com/predict/flight")
 }
 
 func PriceHotel(c *gin.Context) {
-	forwardRequest(c, "http://127.0.0.1:8003/predict/hotel")
+	forwardRequest(c, "https://go-price-fy4m.onrender.com/predict/hotel")
 }
 
 func forwardRequest(c *gin.Context, targetURL string) {
