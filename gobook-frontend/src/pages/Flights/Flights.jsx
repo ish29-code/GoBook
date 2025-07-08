@@ -14,7 +14,7 @@ const Flights = () => {
     <>
       <Navbar />
       <div className="min-h-screen px-4 py-8 bg-gray-50 ">
-        <h1 className="text-2xl  sm:text-3xl font-bold text-center mb-6 text-black sm:text-800 pt-50">
+        <h1 className="text-2xl  sm:text-3xl font-bold text-center mb-6 text-black sm:text-800 pt-28">
           Available Flights
         </h1>
 
