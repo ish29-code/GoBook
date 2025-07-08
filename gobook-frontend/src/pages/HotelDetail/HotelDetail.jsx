@@ -6,7 +6,7 @@ export default function HotelDetail() {
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    fetch(`/api/hotels/${id}/details`)
+    fetch(`https://goback-s4mh.onrender.com/api/hotels/${id}/details`)
       .then(res => res.json())
       .then(setInfo);
   }, [id]);
