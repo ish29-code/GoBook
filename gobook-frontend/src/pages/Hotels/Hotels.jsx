@@ -15,7 +15,7 @@ const Hotels = () => {
     <>
       <Navbar />
       <div className="px-4 py-8 min-h-screen bg-gray-100">
-        <h1 className="text-3xl pt-22 sm:text-4xl font-bold text-center mb-6">Available Hotels</h1>
+        <h1 className="text-3xl pt-35 sm:text-4xl font-bold text-center mb-6">Available Hotels</h1>
 
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white rounded-lg shadow-md text-sm sm:text-base">
