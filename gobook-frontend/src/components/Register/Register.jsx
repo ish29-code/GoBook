@@ -64,7 +64,7 @@ const Register = () => {
     <>
       <Navbar />
       <div className="flex flex-col items-center pt-30 justify-center min-h-screen bg-white bg-opacity-20 backdrop-blur-sm p-4 ">
-        <h2 className="text-2xl font-semibold mb-5">Register for GoBook</h2>
+        <h2 className="text-2xl pt-35 font-semibold mb-5">Register for GoBook</h2>
 
         {errorMessage && (
           <p className="text-red-600 mb-4 text-sm text-center max-w-sm">{errorMessage}</p>
