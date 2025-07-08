@@ -11,7 +11,7 @@ func main() {
 	router := gin.Default()
 	router.Use(cors.Default())
 
-	router.GET("https://gogeo-api.onrender.com/hotels/:id/geo-sentiment", controllers.GetHotelGeoSentiment)
+	router.GET("https://goback-s4mh.onrender.com/hotels/:id/geo-sentiment", controllers.GetHotelGeoSentiment)
 
 	router.Run(":8003")
 }
