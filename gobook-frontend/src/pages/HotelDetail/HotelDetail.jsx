@@ -6,7 +6,7 @@ export default function HotelDetail() {
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    fetch(`https://goback-s4mh.onrender.com/api/hotels/${id}/details`)
+    fetch(`https://gogeo-api.onrender.com/api/hotels/${id}/details`)
       .then(res => res.json())
       .then(setInfo);
   }, [id]);
