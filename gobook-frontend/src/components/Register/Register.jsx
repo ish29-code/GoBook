@@ -32,7 +32,7 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/api/user/register", {
+      const response = await fetch("https://goback-s4mh.onrender.com/api/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
