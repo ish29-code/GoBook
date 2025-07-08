@@ -61,7 +61,7 @@ const Login = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-screen bg-white bg-opacity-20 backdrop-blur-sm p-4">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-white bg-opacity-20 backdrop-blur-sm p-4 pt-20">
         <h2 className="text-2xl font-semibold mb-5">Login to GoBook</h2>
 
         {errorMessage && (
