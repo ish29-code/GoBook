@@ -2,6 +2,7 @@
   "name": "gobook-frontend",
   "private": true,
   "version": "1.0.0",
+  "description": "Frontend for the GoBook application",
   "type": "module",
   "scripts": {
     "dev": "vite",
