@@ -24,7 +24,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080', // Go backend
+        target: 'https://goback-s4mh.onrender.com', // Go backend
         changeOrigin: true,
         secure: false,
       },
