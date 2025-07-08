@@ -26,7 +26,7 @@ const History = () => {
 
       try {
         const response = await axios.get(
-          `http://localhost:8080/api/payment/history/${user.username}`,
+          `https://goback-s4mh.onrender.com/api/payment/history/${user.username}`,
           {
             headers: {
               Authorization: token,
