@@ -62,7 +62,7 @@ const Payment = () => {
 
     try {
       const result = await axios.post(
-        "http://localhost:8080/api/payment/create",
+        "https://goback-s4mh.onrender.com/api/payment/create",
         payload,
         {
           headers: {
@@ -90,7 +90,7 @@ const Payment = () => {
         },
         handler: async function (response) {
           await axios.post(
-            "http://localhost:8080/api/payment/verify",
+            "https://goback-s4mh.onrender.com/api/payment/verify",
             {
               userId: user.username, 
               orderId: order_id,
