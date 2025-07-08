@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+/*import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
@@ -13,5 +13,26 @@ export default defineConfig({
       },
     },
   },
+});*/
+// gobook-frontend/vite.config.js
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080', // Go backend
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
+  build: {
+    outDir: 'build', // Required for Render static site deploy
+  },
 });
+
 
