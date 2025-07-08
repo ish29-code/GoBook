@@ -32,7 +32,7 @@ const GeoIntelligence = ({ hotelId }) => {
     const fetchGeoData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8080/api/hotels/${hotelId}/details`
+          `https://goback-s4mh.onrender.com/api/hotels/${hotelId}/details`
         );
         setGeoData(response.data);
         setError("");
