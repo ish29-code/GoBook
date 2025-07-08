@@ -1,5 +1,8 @@
 /* @tailwind directives removed because they require Tailwind CSS processing */
-  @import "tailwindcss";
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
    
    body {
      background-color: var(--bg-color);
