@@ -13,7 +13,7 @@ func SuggestItinerary(c *gin.Context) {
 
 	reqBody, _ := json.Marshal(gin.H{"userId": userId})
 
-	resp, err := http.Post("http://localhost:8002/suggest", "application/json", bytes.NewBuffer(reqBody))
+	resp, err := http.Post("https://go-itinerary.onrender.com/suggest", "application/json", bytes.NewBuffer(reqBody))
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
