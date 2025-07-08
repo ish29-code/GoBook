@@ -12,7 +12,7 @@ export default function Itinerary() {
   const fetchItinerary = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:8080/api/itinerary/suggest?userId=${userId}`);
+      const res = await fetch(`https://goback-s4mh.onrender.com/api/itinerary/suggest?userId=${userId}`);
       if (!res.ok) throw new Error("Failed to fetch");
 
       const data = await res.json();
