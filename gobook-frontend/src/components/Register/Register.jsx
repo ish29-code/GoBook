@@ -63,7 +63,7 @@ const Register = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center pt-50 justify-center min-h-screen bg-white bg-opacity-20 backdrop-blur-sm p-4 ">
+      <div className="flex flex-col items-center pt-30 justify-center min-h-screen bg-white bg-opacity-20 backdrop-blur-sm p-4 ">
         <h2 className="text-2xl font-semibold mb-5">Register for GoBook</h2>
 
         {errorMessage && (
