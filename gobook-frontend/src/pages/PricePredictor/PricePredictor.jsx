@@ -25,7 +25,7 @@ export default function PricePredictor() {
     };
 
     try {
-      const res = await fetch("http://localhost:8080/api/predict/flight", {
+      const res = await fetch("https://goback-s4mh.onrender.com/api/predict/flight", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -52,7 +52,7 @@ export default function PricePredictor() {
     };
 
     try {
-      const res = await fetch("http://localhost:8080/api/predict/hotel", {
+      const res = await fetch("https://goback-s4mh.onrender.com/api/predict/hotel", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
