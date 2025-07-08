@@ -11,7 +11,7 @@ export default function Chatbot() {
     if (!input.trim()) return;
 
     try {
-      const res = await fetch("http://localhost:8080/api/chatbot", {
+      const res = await fetch("https://goback-s4mh.onrender.com/api/chatbot", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
