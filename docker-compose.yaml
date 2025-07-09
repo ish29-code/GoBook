@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./gobook-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./gobook-frontend
+    ports:
+      - "80:80"
+
+  itinerary-service:
+    build: ./Microservice/Itinerary-service
+    ports:
+      - "8002:8002"
+
+  geo-api:
+    build: ./Microservice/geo-api
+    ports:
+      - "8004:8004"
+
+  price-prediction:
+    build: ./Microservice/price-prediction-service
+    ports:
+      - "8003:8003"
+
+  mongo:
+    image: mongo:4.4
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

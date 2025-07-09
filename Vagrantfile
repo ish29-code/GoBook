@@ -1,5 +1,6 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "ubuntu/focal64"  
+
   config.vm.hostname = "gobook-vm"
 
   config.vm.network "forwarded_port", guest: 8080, host: 8080    # Go backend
@@ -10,8 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", path: "provision.sh"
 
-  config.vm.synced_folder "Booking app/gobook", "/home/vagrant/gobook"
-
+  config.vm.synced_folder "C:/Users/ishik/Booking app/gobook", "/home/vagrant/gobook"
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "4096"

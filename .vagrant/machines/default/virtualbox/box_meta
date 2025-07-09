@@ -1,1 +1,1 @@
-{"name":"ubuntu/bionic64","version":"20230607.0.5","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-bionic64/20230607.0.5/virtualbox"}
+{"name":"ubuntu/focal64","version":"20240821.0.1","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-focal64/20240821.0.1/virtualbox"}

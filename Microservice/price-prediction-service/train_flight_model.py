@@ -1,8 +1,7 @@
-
-import pickle
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
+import joblib
 
 froms = ["Delhi", "Mumbai", "Pune", "Kolkata", "Goa", "Hyderabad", "Lucknow", "Chennai", "Ahmedabad"]
 tos   = ["Goa", "Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad", "Lucknow", "Kolkata", "Pune"]
@@ -20,8 +19,8 @@ y = np.array(prices)
 model = LinearRegression()
 model.fit(X, y)
 
-pickle.dump(model, open("flight_model.pkl", "wb"))
-pickle.dump(le_from, open("le_from.pkl", "wb"))
-pickle.dump(le_to, open("le_to.pkl", "wb"))
+joblib.dump(model, "flight_model.pkl")
+joblib.dump(le_from, "le_from.pkl")
+joblib.dump(le_to, "le_to.pkl")
 
-print("Flight model trained and saved.")
+print("✅ Flight model trained and saved with joblib.")

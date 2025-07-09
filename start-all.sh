@@ -2,31 +2,30 @@
 
 echo "Starting GoBook services (interactive)..."
 
-# Start Go backend
+
 echo "Starting Go backend..."
-cd /home/vagrant/gobook/backend
+cd /home/vagrant/gobook/gobook-backend
 go run main.go
 
-# Start React frontend (Vite)
 echo "Starting React frontend..."
-cd /home/vagrant/gobook/frontend
+cd /home/vagrant/gobook/gobook-frontend
 npm install
-npm run dev -- --host
+npm run dev -- --host 
 
-# Start itinerary service
 echo "Starting itinerary-service..."
-cd /home/vagrant/gobook/microservices/itinerary-service
+cd /home/vagrant/gobook/Microservice/Itinerary-service
 go run main.go
 
-# Start price prediction service (Flask)
 echo "Starting price-prediction-service..."
-cd /home/vagrant/gobook/microservices/price-prediction-service
-pip3 install -r requirements.txt
-python3 app.py
+cd /home/vagrant/gobook/Microservice/price-prediction-service
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=app.py
+flask run --host=0.0.0.0 --port=8003
 
-# Start geo-api service
 echo "Starting geo-api service..."
-cd /home/vagrant/gobook/microservices/geo-api
+cd /home/vagrant/gobook/Microservice/geo-api
 go run main.go
 
 echo "All services finished (or still running)..."

@@ -2,6 +2,8 @@ module Itinerary-service
 
 go 1.23.4
 
+
+
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect

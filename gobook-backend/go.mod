@@ -2,6 +2,8 @@ module gobook-backend
 
 go 1.23.4
 
+
+
 require (
 	cloud.google.com/go v0.120.0 // indirect
 	cloud.google.com/go/auth v0.16.0 // indirect
