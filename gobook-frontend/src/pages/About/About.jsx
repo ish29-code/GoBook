@@ -21,7 +21,7 @@ const About = () => {
             <h1 className="text-4xl font-bold text-black-800 mb-4">About GoBook</h1>
 
             <p className="text-gray-700 leading-relaxed text-lg">
-              <strong>GoBook</strong> is your AI-powered travel planner built to make trip planning smarter, faster, and easier. We’ve packed it with modern features that actually work — not just buzzwords.
+              <strong>GoBook</strong> is your AI-powered travel planner built to make trip planning smarter, faster, and easier. I’ve packed it with modern features that actually work — not just buzzwords.
             </p>
 
             <p className="mt-4 text-gray-700 leading-relaxed">
@@ -29,7 +29,7 @@ const About = () => {
             </p>
 
             <p className="mt-4 text-gray-700 leading-relaxed">
-              There’s also a friendly <strong>AI Chatbot</strong> to answer your questions, a <strong>Geo Intelligence</strong> service that shows nearby attractions and sentiment analysis.
+              There’s also a friendly <strong>AI Chatbot</strong> to answer your questions. I used a Dialogflow-powered AI chatbot to provide instant, conversational travel assistance to our users., a <strong>Geo Intelligence</strong> service that shows nearby attractions and sentiment analysis.
             </p>
 
             <p className="mt-4 text-gray-700">
@@ -41,7 +41,7 @@ const About = () => {
             </p>
 
             <p className="mt-4 text-gray-700">
-              Our database is backed by a robust NoSQL system, MongoDB, which ensures that user data, booking history, search patterns, and preferences are stored and queried with efficiency. This backbone allows GoBook to deliver fast responses and rich personalization.
+              Database is backed by a robust NoSQL system, MongoDB, which ensures that user data, booking history, search patterns, and preferences are stored and queried with efficiency. This backbone allows GoBook to deliver fast responses and rich personalization.
             </p>
 
             <p className="mt-4 text-gray-700">
