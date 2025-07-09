@@ -29,19 +29,7 @@ const About = () => {
             </p>
 
             <p className="mt-4 text-gray-700 leading-relaxed">
-              There’s also a friendly <strong>AI Chatbot</strong> to answer your questions, a <strong>Geo Intelligence</strong> service that shows nearby attractions and sentiment analysis, and a <strong>Smart Search</strong> that understands natural queries like “hotels near beach in Goa”.
-            </p>
-
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              GoBook isn’t just another travel website. It’s a full AI-based travel assistant, designed to work smart behind the scenes so you can focus on enjoying your journey.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              In addition, the <strong>Price Prediction Module</strong> is powered by real-time AI models that forecast flight and hotel prices with high accuracy. This enables travelers to book at the optimal time, helping them save significantly while avoiding price surges.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              Our platform also includes <strong>Geo Intelligence</strong> features, where GoBook analyzes your origin and destination to provide insights into local hotspots, travel advisories, and convenience ratings. This means you're not just going from one place to another — you're informed about your journey like never before.
+              There’s also a friendly <strong>AI Chatbot</strong> to answer your questions, a <strong>Geo Intelligence</strong> service that shows nearby attractions and sentiment analysis.
             </p>
 
             <p className="mt-4 text-gray-700">
@@ -58,14 +46,6 @@ const About = () => {
 
             <p className="mt-4 text-gray-700">
               With the integration of cloud services, GoBook is not bound by region or device. Whether you access it on mobile, tablet, or desktop, the platform provides a consistent, optimized experience powered by distributed servers and efficient APIs.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              What sets GoBook apart from other travel platforms is its emphasis on personalization, intelligence, and automation. It doesn't just show you options — it guides you toward the best decision.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              In summary, GoBook is more than just a booking platform. It’s a smart ecosystem designed to transform the way people explore, plan, and experience the world. With a commitment to innovation, transparency, and user-first design, GoBook is setting the standard for next-generation travel.
             </p>
 
             <div className="mt-6">
