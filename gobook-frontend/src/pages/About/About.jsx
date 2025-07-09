@@ -21,19 +21,19 @@ const About = () => {
             <h1 className="text-4xl font-bold text-black-800 mb-4">About GoBook</h1>
 
             <p className="text-gray-700 leading-relaxed text-lg">
-              <strong>GoBook</strong> is a next-generation travel platform designed to redefine how users plan and experience their journeys. At its core, GoBook blends advanced artificial intelligence with modern web technologies to deliver an intuitive and highly personalized travel booking solution.
+              <strong>GoBook</strong> is your AI-powered travel planner built to make trip planning smarter, faster, and easier. We’ve packed it with modern features that actually work — not just buzzwords.
             </p>
 
-            <p className="mt-4 text-gray-700">
-              The idea behind GoBook was born from the realization that travel planning, while exciting, can often be stressful and time-consuming. Sifting through endless flight listings, hotel options, and itinerary suggestions usually demands significant effort and time. GoBook is here to eliminate those pain points by intelligently assisting users every step of the way.
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              From booking flights and hotels to creating personalized itineraries, GoBook uses machine learning to simplify every step. Our <strong>Smart Itinerary Generator</strong> gives you tailored trip suggestions. The <strong>Price Prediction</strong> tool helps you know when to book flights or hotels for the best rates.
             </p>
 
-            <p className="mt-4 text-gray-700">
-              Our mission is to provide a seamless travel experience by automating and enhancing the planning process using data-driven insights. From the moment you decide to take a trip to the final booking, GoBook's smart engine ensures convenience, accuracy, and satisfaction.
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              There’s also a friendly <strong>AI Chatbot</strong> to answer your questions, a <strong>Geo Intelligence</strong> service that shows nearby attractions and sentiment analysis, and a <strong>Smart Search</strong> that understands natural queries like “hotels near beach in Goa”.
             </p>
 
-            <p className="mt-4 text-gray-700">
-              One of the flagship features of GoBook is its <strong>Smart Itinerary Generator</strong>. This tool uses machine learning algorithms to build dynamic itineraries tailored to the user’s preferences, travel history, and location context. Unlike generic travel schedules, GoBook's itineraries adapt based on time of year, budget, nearby attractions, and user interests.
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              GoBook isn’t just another travel website. It’s a full AI-based travel assistant, designed to work smart behind the scenes so you can focus on enjoying your journey.
             </p>
 
             <p className="mt-4 text-gray-700">
@@ -45,19 +45,11 @@ const About = () => {
             </p>
 
             <p className="mt-4 text-gray-700">
-              Another breakthrough innovation in GoBook is the <strong>Smart Search with NLP</strong>. Users can type in natural queries like "cheap hotels near beach in Goa" or "best flights to Bangalore next week", and our intelligent engine understands, processes, and returns results that match your intent, not just the keywords.
-            </p>
-
-            <p className="mt-4 text-gray-700">
               Security and reliability are paramount. GoBook uses secure authentication protocols for login, account management, and payment. Whether it’s signing up or making a booking, your data is protected with modern encryption and cloud best practices.
             </p>
 
             <p className="mt-4 text-gray-700">
               The platform is built with a microservices architecture for scalability and modularity. Each feature — whether it’s itinerary generation, flight/hotel price prediction, sentiment analysis, or chatbot communication — is encapsulated in its own service, ensuring high availability and maintainability.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              GoBook’s <strong>AI Chatbot</strong> acts as a virtual assistant, capable of answering queries, suggesting places, and helping with bookings through conversational interaction. This offers 24/7 support without human intervention, enhancing user experience at all hours.
             </p>
 
             <p className="mt-4 text-gray-700">
@@ -70,14 +62,6 @@ const About = () => {
 
             <p className="mt-4 text-gray-700">
               What sets GoBook apart from other travel platforms is its emphasis on personalization, intelligence, and automation. It doesn't just show you options — it guides you toward the best decision.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              GoBook was created for modern travelers who value technology-driven convenience. Whether you're planning a quick business trip, a romantic getaway, or a family vacation, GoBook adapts to your needs and helps you plan the best version of your journey.
-            </p>
-
-            <p className="mt-4 text-gray-700">
-              We are constantly evolving. Our roadmap includes integration with major loyalty programs, blockchain-based secure transactions, and a more immersive AI travel assistant. Our team is committed to making GoBook the most intelligent travel planner on the market.
             </p>
 
             <p className="mt-4 text-gray-700">
