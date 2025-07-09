@@ -22,7 +22,7 @@ func GetHotelDetails(c *gin.Context) {
 		} `json:"Sentiment"`
 	}
 
-	url := "http://localhost:8003/hotels/" + id + "/geo-sentiment"
+	url := "http://localhost:8004/hotels/" + id + "/geo-sentiment"
 	log.Println("Calling geo-api:", url)
 
 	resp, err := http.Get(url)

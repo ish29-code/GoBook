@@ -13,5 +13,5 @@ func main() {
 
 	router.GET("/hotels/:id/geo-sentiment", controllers.GetHotelGeoSentiment)
 
-	router.Run(":8003")
+	router.Run(":8004")
 }
