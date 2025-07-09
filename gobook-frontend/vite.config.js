@@ -14,11 +14,6 @@ export default defineConfig({
     },
   },
 });*/
-<<<<<<< HEAD
-=======
-
->>>>>>> e38f8d3c8554435b9afc8cd014e01b1b30728ff2
-// gobook-frontend/vite.config.js
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
