@@ -43,10 +43,11 @@ const BookingTicketForm = () => {
     );
 
   } else {
-    results = hotel_list.filter(
-      (hotel) =>
-      hotel.location.toLowerCase() === formData.to.toLowerCase()
-     );
+   results = hotel_list.filter(
+    (hotel) =>
+    hotel.location.toLowerCase().includes(formData.to.toLowerCase())
+   );
+    
   }
 
   navigate(`/${activeTab}`, { state: { searchResults: results, formData } });
