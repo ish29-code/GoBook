@@ -10,7 +10,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", path: "provision.sh"
 
-  config.vm.synced_folder ".", "/home/vagrant/gobook"
+  config.vm.synced_folder "Booking app/gobook", "/home/vagrant/gobook"
+
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "4096"
