@@ -2,6 +2,9 @@
 
 GoBook is a next-generation travel booking platform that blends modern web technologies with AI microservices to deliver intelligent search, itinerary suggestions, price predictions, geo-insights, and conversational chatbot assistance.
 
+Live Site: [https://GoBook.com](https://www.hufd.xyz)
+
+
 ---
 
 ## ✨ Features
@@ -58,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5137](http://localhost:5173) in your browser.
+Open [http://localhost:5137](http://localhost:5137) in your browser.
 
 ---
 
@@ -105,6 +108,8 @@ python app.py  # Port: 8003
 cd microservices/geo-api
 go run main.go  # Port: 8004
 ```
+
+---
 
 ## 🚀 Production Deployment
 
@@ -160,13 +165,6 @@ Each microservice has its own Dockerfile. Adjust `.env`, ports, and volumes in `
 
 ---
 
-## 🚀 Future Roadmap
-
-* Blockchain Booking
-* Loyalty Program Integration
-* Multilingual NLP Support
-* Real-time Alerts with WebSockets
-
 ---
 
 ## ❤️ Contributing
@@ -175,10 +173,8 @@ Pull requests and feature suggestions are welcome!
 
 ---
 
-## © License
+## 🌐 Live GoBook Site
 
-MIT License
+🔗 [https://GoBook.com](https://www.hufd.xyz)
 
----
-
-> Made with ❤️ by Ishika and the GoBook Team
+❤️Thankyou
