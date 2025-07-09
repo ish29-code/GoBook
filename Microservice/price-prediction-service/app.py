@@ -6,7 +6,6 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
-# Load trained models and encoders using joblib
 flight_model = joblib.load("flight_model.pkl")
 hotel_model = joblib.load("hotel_model.pkl")
 le_from = joblib.load("le_from.pkl")
