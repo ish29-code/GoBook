@@ -37,15 +37,16 @@ const BookingTicketForm = () => {
 
   if (activeTab === "flights") {
     results = flight_list.filter(
-      (flight) =>
-        flight.from.toLowerCase() === formData.from.toLowerCase() &&
-        flight.to.toLowerCase() === formData.to.toLowerCase()
+     (flight) =>
+       flight.from.toLowerCase().includes(formData.from.toLowerCase()) &&
+       flight.to.toLowerCase().includes(formData.to.toLowerCase())
     );
+
   } else {
     results = hotel_list.filter(
       (hotel) =>
-        hotel.location.toLowerCase() === formData.to.toLowerCase()
-    );
+      hotel.location.toLowerCase() === formData.to.toLowerCase()
+     );
   }
 
   navigate(`/${activeTab}`, { state: { searchResults: results, formData } });
