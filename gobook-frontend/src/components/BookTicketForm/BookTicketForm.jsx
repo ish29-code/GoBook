@@ -13,9 +13,7 @@ const BookingTicketForm = () => {
     returnDate: "",
     passengers: 1,
     Guests : 1,
-    days: 1, 
-    checkInTime: "", // For hotel only
-    departuretime: "", // For flights only
+    days: 1
   });
 
   const [activeTab, setActiveTab] = useState("flights");
@@ -164,35 +162,6 @@ const BookingTicketForm = () => {
             />
           </div>
         )}
-        {activeTab === "hotels" && (
-          <div className="flex flex-col">
-          <label htmlFor="checkInTime" className="font-semibold mb-1">Check-In Time</label>
-          <input
-           type="time"
-           id="checkInTime"
-           name="checkInTime"
-           value={formData.checkInTime}
-           onChange={handleChange}
-           required
-           className="p-3 border border-gray-300 rounded-xl text-black/70"
-         />
-         </div>
-       )}
-
-       {activeTab === "flights" && (
-          <div className="flex flex-col">
-          <label htmlFor="departuretime" className="font-semibold mb-1">Departure-Time</label>
-          <input
-           type="time"
-           id="departuretime"
-           name="departuretime"
-           value={formData.checkInTime}
-           onChange={handleChange}
-           required
-           className="p-3 border border-gray-300 rounded-xl text-black/70"
-         />
-         </div>
-       )}
 
        {activeTab === "hotels" && (
         <div className="flex flex-col">
